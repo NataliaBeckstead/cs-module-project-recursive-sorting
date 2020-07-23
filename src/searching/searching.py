@@ -26,6 +26,7 @@ def agnostic_binary_search(arr, target):
 
     while left <= right:
         mid = (left + right) // 2
+
         if arr[mid] == target:
             return mid
 
